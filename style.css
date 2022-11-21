@@ -113,3 +113,66 @@ h2{
     color: white;
     padding: 10px;
 }
+@media (min-width: 480px)
+{
+    
+    .hlavni-recept {
+        min-height: 250px;
+        padding: 20px;
+    } 
+
+.recept-recept2,
+.recept-recept3,
+.recept-recept4,
+.recept-recept5 {
+    min-height: 150px;
+    padding: 20px;
+    flex: 1 1 45%;
+}
+.recept-nazev1{
+    font-size: 36px;
+    padding-top: 190px;
+    margin: 0;
+}
+.recept-nazev {
+    font-size: 22px;
+    padding-top: 80px;
+}
+.recepty{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recept-recept3,
+.recept-recept5 {
+    border-left: 2px solid white;
+}
+}
+@media (min-width: 860px){
+    .hlavni-recept {
+        min-height: 400px;
+    } 
+
+.recept-recept2,
+.recept-recept3,
+.recept-recept4,
+.recept-recept5 {
+    min-height: 200px;
+}
+.recept-nazev1{
+    font-size: 48px;
+    padding-top: 230px;
+    margin: 0;
+}
+.recept-nazev {
+    font-size: 28px;
+    padding-top: 100px;
+    margin: 0;
+}
+.doporucujeme {
+    display: flex;
+}
+.recept-recept2,
+.recept-recept4 {
+    border-left: 2px solid white;
+}
+}
